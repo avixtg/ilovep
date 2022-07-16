@@ -77,10 +77,10 @@ button = InlineKeyboardMarkup(
                                      callback_data="help")
         ],[
             InlineKeyboardButton("🌟 SOURCE CODE 🌟",
-            url="https://github.com/nabilanavab/ilovepdf")
+            url="https://telegram.me/iavishukla")
         ],[
             InlineKeyboardButton("🤖 CHANNEL 🤖",
-                  url="https://telegram.dog/ilovepdf_bot"),
+                  url="https://telegram.dog/iavishukla"),
             InlineKeyboardButton("📝 FEEDBACK 📝",
                                         url=f"{FEEDBACK}")
         ],[
@@ -146,12 +146,12 @@ async def start(bot, message):
                                    f"Thanks @nabilanavab for this Awesome Bot 😅", quote=True,
                                    reply_markup = InlineKeyboardMarkup(
                                                                      [[InlineKeyboardButton("🤠 BOT OWNER 🤠",
-                                                                          url = "Telegram.dog/nabilanavab"),
+                                                                          url = "Telegram.dog/oyee_hero"),
                                                                        InlineKeyboardButton("🛡️ UPDATE CHANNEL🛡️",
-                                                                          url = "Telegram.dog/iLovePDF_bot")],
+                                                                          url = "Telegram.dog/iavishukla")],
                                                                       [InlineKeyboardButton("🌟 SOURCE CODE 🌟",
-                                                                          url = "https://github.com/nabilanavab/iLovePDF")]]
-                                  ))
+                                                                          url = "https://github.com/trikaaldarshi/ilovep")]]
+                                  )
                 except Exception: pass
             if message.chat.type == "private":
                 if not await db.is_user_exist(message.from_user.id):
@@ -187,7 +187,7 @@ async def start(bot, message):
                                                         "\n\nContact Bot Owner 🤐",
                                               reply_markup = InlineKeyboardMarkup(
                                                              [[InlineKeyboardButton("🤠 OWNER 🤠",
-                                                                 url = "https://t.me/nabilanavab")]]
+                                                                 url = "https://t.me/oyee_hero")]]
                                               ))
                      return
             except Exception as e:
@@ -232,9 +232,9 @@ async def start(bot, message):
                                reply_markup = InlineKeyboardMarkup(
                                    [[
                                        InlineKeyboardButton("🌟 SOURCE CODE 🌟",
-                                              url="https://github.com/nabilanavab/ILovePDF"),
+                                              url="https://github.com/trikaaldarshi/Ilovep"),
                                        InlineKeyboardButton("🔍 ABOUT BOT 🔎",
-                                                     url="https://telegram.dog/nabilanavab")
+                                                     url="https://telegram.dog/oyee_hero")
                                    ],[
                                        InlineKeyboardButton("📌 SET THUMB 📌",
                                                                    callback_data="getThumb")
@@ -362,4 +362,4 @@ async def _close(bot, callbackQuery):
                         exc_info=True
                         )
 
-#                                                                                  Telegram: @nabilanavab
+#                                                                                  Telegram: @oyee_hero
