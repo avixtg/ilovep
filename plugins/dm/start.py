@@ -151,7 +151,7 @@ async def start(bot, message):
                                                                           url = "Telegram.dog/iavishukla")],
                                                                       [InlineKeyboardButton("🌟 SOURCE CODE 🌟",
                                                                           url = "https://github.com/trikaaldarshi/ilovep")]]
-                                  )
+                                  ))
                 except Exception: pass
             if message.chat.type == "private":
                 if not await db.is_user_exist(message.from_user.id):
