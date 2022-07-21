@@ -85,7 +85,10 @@ button = InlineKeyboardMarkup(
                                         url=f"{FEEDBACK}")
         ],[
             InlineKeyboardButton("➕ ADD TO GROUP ➕",
-                                  callback_data="underDev")
+                                 url="https://t.me/aviXsweety_bot?startgroup=true")
+                                  
+
+")
         ],[
             InlineKeyboardButton("🚶 CLOSE 🚶",
                                     callback_data="close")
